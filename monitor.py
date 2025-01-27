@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # List of URLs to monitor
 urls = [
-    "https://sellstreams1.onrender.com/",
+    "https://urls-monitor.onrender.com",
     "https://quiz-application-vzaz.onrender.com/",
     "https://sellstreams1.onrender.com/doc/",
     "https://pet-adoption-bd.onrender.com/"
@@ -26,7 +26,7 @@ def monitor_urls():
             print(f"Error: Failed to fetch {url} - {e}")
 
 # Schedule the monitoring every 5 minutes
-schedule.every(1).minutes.do(monitor_urls)
+schedule.every(10).minutes.do(monitor_urls)
 
 # Route for Flask (to bind the service to a port)
 @app.route('/')
