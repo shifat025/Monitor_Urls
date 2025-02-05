@@ -13,7 +13,8 @@ urls = [
     "https://urls-monitor.onrender.com",
     "https://quiz-application-vzaz.onrender.com/",
     "https://sellstreams1.onrender.com/doc/",
-    "https://pet-adoption-bd.onrender.com/"
+    "https://pet-adoption-bd.onrender.com/",
+    "https://shifat-portfolio.onrender.com/contact/"
 ]
 
 # Monitor function to hit the URLs
