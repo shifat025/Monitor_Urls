@@ -14,7 +14,8 @@ urls = [
     "https://quiz-application-vzaz.onrender.com/",
     "https://sellstreams1.onrender.com/doc/",
     "https://pet-adoption-bd.onrender.com/",
-    "https://shifat-portfolio.onrender.com/contact/"
+    "https://shifat-portfolio.onrender.com/contact/",
+    "https://quickfood-x9fk.onrender.com/swagger/"
 ]
 
 # Monitor function to hit the URLs
